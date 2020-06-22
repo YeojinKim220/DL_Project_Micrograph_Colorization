@@ -27,18 +27,16 @@
 아래의 Colab 링크에서는 training 한 CNN model과 원하는 흑백 이미지의 주소를 이용해서 model을 test 해볼 수 있습니다.
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">]()
 
-<img src="https://images.newscientist.com/wp-content/uploads/2020/01/21145926/bn38th.jpg" width="50%" height="50%">
-
 ## Example Images
 
 
 ## Pre-training
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG)
-<img src="https://images.newscientist.com/wp-content/uploads/2020/01/21145926/bn38th.jpg">
+<img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.1_pre-trained_model.png?raw=true">
 
 ## Training
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1hp8x8WD3B2PvFCTi1xFsP2eKl4dBYlTW#scrollTo=NOQfP1feNkfS)
-<img src="https://images.newscientist.com/wp-content/uploads/2020/01/21145926/bn38th.jpg">
+<img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.2_Training_model.png?raw=true">
 
 ## Testing Model
 
