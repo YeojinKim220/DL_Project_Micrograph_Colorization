@@ -7,17 +7,12 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Example Images](#example-images)
-- [Datasets](#stuff-that-should-probably-be-in-a-paper)
-    - [How to Achieve Stable Video](#how-to-achieve-stable-video)
-    - [What is NoGAN?](#what-is-nogan)
-- [Why Three Models?](#why-three-models)
-- [Technical Details](#the-technical-details)
-- [Going Forward](#this-project-going-forward)
-- [Getting Started Yourself](#getting-started-yourself)
-    - [Easiest Approach](#easiest-approach)
-    - [Your Own Machine](#your-own-machine-not-as-easy)
-- [Docker](#docker)
-- [Pretrained Weights](#pretrained-weights)
+- [Datasets](#datasets)
+- [Pre-training Model](#pretraining-model)
+- [Training Model](#training-model)
+- [Citation](#citation)
+
+----------------------------
 
 ## Introduction
 
@@ -27,19 +22,28 @@
 아래의 Colab 링크에서는 training 한 CNN model과 원하는 흑백 이미지의 주소를 이용해서 model을 test 해볼 수 있습니다.
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">]()
 
+## Datasets
+- Pre-training : [MIT Places](http://places.csail.mit.edu/) - 41,000개의 풍경이나 건물 이미지
+- Training : [Micrograph Image DataSets (color)](https://drive.google.com/file/d/1Jd9RmimqICSzJDTbpk94BZQmdDKfoskh/view?usp=sharing) - Google Image Crawling 이용해서 구축한 4,845개의 현미경 세포 이미지
+
 ## Example Images
 
 
-## Pre-training
+## Pretraining Model
+Data Crawling을 이용해서 얻은 현미경 사진 데이터의 규모가 작기 때문에 이를 보완하기 위해서 transfer learning을 적용했다. 데이터가 풍부한 풍경 사진 데이터를 이용해서 colorization 모델을 pre-training 하는 과정입니다.
+
+[MIT Places](http://places.csail.mit.edu/)데이터 중, 41,000개의 풍경이나 건물 이미지를 이용해서 pre-training을 진행했습니다. 
+
+CNN(convolutional neural network)을 사용하였고 ResNet-18을 이용해서 feature를 선별하고, deconvolutional layers를 이용해서 upscale하여 resolution을 높이는 모델을 사용했습니다.
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG)
 <img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.1_pre-trained_model.png?raw=true">
 
-## Training
+## Training Model
+Pre-training model를 기반으로 현미경으로 촬영한 세포 이미지 데이터로 model을 추가로 학습시켰습니다. 
 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1hp8x8WD3B2PvFCTi1xFsP2eKl4dBYlTW#scrollTo=NOQfP1feNkfS)
 <img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.2_Training_model.png?raw=true">
 
-## Testing Model
-
-
-
+## Citation
+- Dataset : [MIT Places](http://places.csail.mit.edu/)
+- Reference Code : [Automatic-Image-Colorization (github)](https://github.com/lukemelas/Automatic-Image-Colorization/)
 
