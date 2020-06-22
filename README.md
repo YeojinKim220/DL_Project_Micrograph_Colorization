@@ -33,12 +33,14 @@
 
 
 ## Pre-training
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=jqLZaL9s6peb)
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG)
+<img src="https://images.newscientist.com/wp-content/uploads/2020/01/21145926/bn38th.jpg">
 
 ## Training
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1hp8x8WD3B2PvFCTi1xFsP2eKl4dBYlTW#scrollTo=NOQfP1feNkfS)
+<img src="https://images.newscientist.com/wp-content/uploads/2020/01/21145926/bn38th.jpg">
 
 ## Testing Model
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1hp8x8WD3B2PvFCTi1xFsP2eKl4dBYlTW#scrollTo=OnrbjYF39wRO)
 
 
 
