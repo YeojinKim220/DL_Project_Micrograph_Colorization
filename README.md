@@ -40,7 +40,7 @@ CNN(convolutional neural network)을 사용하였고 ResNet-18을 이용해서 f
 
 ## Training Model
 Pre-training model를 기반으로 현미경으로 촬영한 세포 이미지 데이터로 model을 추가로 학습시켰습니다. 
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1hp8x8WD3B2PvFCTi1xFsP2eKl4dBYlTW#scrollTo=NOQfP1feNkfS)
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">] (https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf)
 <img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.2_Training_model.png?raw=true">
 
 ## Citation
