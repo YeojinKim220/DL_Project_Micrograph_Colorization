@@ -19,10 +19,7 @@
 뉴스나 신문에서 쉽게 찾아 볼 수 있는 코로나 바이러스의 전자현미경 사진들이 모두 원래는 흑백사진이라는 것을 알고 계신가요? 전자빔을 이용하는 특성상 전자현미경 사진은 흑백일 수밖에 없기 때문에, 흑백사진을 포토샵으로 이용해서 보기 편하게 채색을 하는 것입니다. 
 포토샵을 이용하지 않고 전자현미경 사진을 딥러닝을 이용해서 컬러링 하는 프로젝트를 진행해 보았습니다. 
 
-
-1. Pre-training CNN Model with MIT Places Images : 40000여개의 풍경 사진을 이용한 pre-training | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG) 
-1. Training CNN Model with Micrograph Image : 현미경 image를 이용한 training | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf) 
-1. Micrograph Colorization : image URL을 입력하면 colorization 하는 CNN model | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1H1A78ZW90MhNQgFCAFcW3S8RR1FpQanp#scrollTo=MPNK98Emmf9j) 
+image URL을 입력하면 학습 시킨 모델을 이용해서 원하는 image를 colorization 하는 것을 test 해볼 수 있습니다.  | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1H1A78ZW90MhNQgFCAFcW3S8RR1FpQanp#scrollTo=MPNK98Emmf9j) 
 
 ## Datasets
 - Pre-training : [MIT Places](http://places.csail.mit.edu/) - 41,000개의 풍경이나 건물 이미지
