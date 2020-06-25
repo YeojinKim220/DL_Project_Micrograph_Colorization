@@ -31,18 +31,16 @@
 ## Example Images
 ![example_image_1](https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/example_image_1.png?raw=true)
 
-## Pretraining Model
+## Pretraining Model [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG) 
 Data Crawling을 이용해서 얻은 현미경 사진 데이터의 규모가 작기 때문에 이를 보완하기 위해서 transfer learning을 적용했다. 데이터가 풍부한 풍경 사진 데이터를 이용해서 colorization 모델을 pre-training 하는 과정입니다.
 
 [MIT Places](http://places.csail.mit.edu/)데이터 중, 41,000개의 풍경이나 건물 이미지를 이용해서 pre-training을 진행했습니다. 
 
 CNN(convolutional neural network)을 사용하였고 ResNet-18을 이용해서 feature를 선별하고, deconvolutional layers를 이용해서 upscale하여 resolution을 높이는 모델을 사용했습니다.
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG)
 <img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.1_pre-trained_model.png?raw=true">
 
-## Training Model
+## Training Model [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf) 
 Pre-training model를 기반으로 현미경으로 촬영한 세포 이미지 데이터로 model을 추가로 학습시켰습니다. 
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">] (https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf)
 <img src="https://github.com/YeojinKim220/DL_Project_Micrograph_Colorization/blob/master/Fig.2_Training_model.png?raw=true">
 
 ## Citation
