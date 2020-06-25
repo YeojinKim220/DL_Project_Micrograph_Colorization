@@ -21,8 +21,8 @@
 
 
 1. Pre-training CNN Model with MIT Places Images : 40000여개의 풍경 사진을 이용한 pre-training | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1J_kLfx5d0VWTJZDehBXU9_VAcVRoAPFV#scrollTo=rRoQxRmuWqnG) 
-1. Training CNN Model with Micrograph Image : 현미경 image를 이용한 training | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf) : 
-1. Micrograph Colorization : image URL을 입력하면 colorization 하는 CNN model | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1H1A78ZW90MhNQgFCAFcW3S8RR1FpQanp#scrollTo=MPNK98Emmf9j) : 
+1. Training CNN Model with Micrograph Image : 현미경 image를 이용한 training | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1AFxY4jd1_G22KS3teCVzE-RLKcHecU7w#scrollTo=Zfp5Ce54Hbyf) 
+1. Micrograph Colorization : image URL을 입력하면 colorization 하는 CNN model | [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1H1A78ZW90MhNQgFCAFcW3S8RR1FpQanp#scrollTo=MPNK98Emmf9j) 
 
 ## Datasets
 - Pre-training : [MIT Places](http://places.csail.mit.edu/) - 41,000개의 풍경이나 건물 이미지
