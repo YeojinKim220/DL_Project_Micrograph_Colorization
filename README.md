@@ -8,7 +8,7 @@
 - [Example Images](#example-images)
 - [Datasets](#datasets)
 - [Pre-training Model](#pretraining-model)
-- [Training Model](#training-model)
+- [Fine-tunning Model](#training-model)
 - [Citation](#citation)
 
 ----------------------------
